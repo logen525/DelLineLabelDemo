@@ -18,6 +18,8 @@
 		06EFDC6E1717FEEE0029B266 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDC6D1717FEEE0029B266 /* Default-568h@2x.png */; };
 		06EFDC711717FEEE0029B266 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDC6F1717FEEE0029B266 /* MainStoryboard.storyboard */; };
 		06EFDC741717FEEE0029B266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDC731717FEEE0029B266 /* ViewController.m */; };
+		06EFDC7C1717FF210029B266 /* SNBDelLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDC7B1717FF210029B266 /* SNBDelLineLabel.m */; };
+		06EFDC7E1717FF550029B266 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFDC7D1717FF550029B266 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		06EFDC701717FEEE0029B266 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		06EFDC721717FEEE0029B266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		06EFDC731717FEEE0029B266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06EFDC7A1717FF210029B266 /* SNBDelLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBDelLineLabel.h; sourceTree = "<group>"; };
+		06EFDC7B1717FF210029B266 /* SNBDelLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBDelLineLabel.m; sourceTree = "<group>"; };
+		06EFDC7D1717FF550029B266 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EFDC7E1717FF550029B266 /* QuartzCore.framework in Frameworks */,
 				06EFDC581717FEEE0029B266 /* UIKit.framework in Frameworks */,
 				06EFDC5A1717FEEE0029B266 /* Foundation.framework in Frameworks */,
 				06EFDC5C1717FEEE0029B266 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,7 @@
 		06EFDC4B1717FEEE0029B266 = {
 			isa = PBXGroup;
 			children = (
+				06EFDC7D1717FF550029B266 /* QuartzCore.framework */,
 				06EFDC5D1717FEEE0029B266 /* SNBDelLineDemo */,
 				06EFDC561717FEEE0029B266 /* Frameworks */,
 				06EFDC551717FEEE0029B266 /* Products */,
@@ -89,6 +96,8 @@
 				06EFDC721717FEEE0029B266 /* ViewController.h */,
 				06EFDC731717FEEE0029B266 /* ViewController.m */,
 				06EFDC5E1717FEEE0029B266 /* Supporting Files */,
+				06EFDC7A1717FF210029B266 /* SNBDelLineLabel.h */,
+				06EFDC7B1717FF210029B266 /* SNBDelLineLabel.m */,
 			);
 			path = SNBDelLineDemo;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 				06EFDC641717FEEE0029B266 /* main.m in Sources */,
 				06EFDC681717FEEE0029B266 /* AppDelegate.m in Sources */,
 				06EFDC741717FEEE0029B266 /* ViewController.m in Sources */,
+				06EFDC7C1717FF210029B266 /* SNBDelLineLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

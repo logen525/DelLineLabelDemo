@@ -7,23 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "SNBDelLineLabel.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    IBOutlet SNBDelLineLabel *testLabel;
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)addDelLine:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [testLabel addDeleteLine];
 }
 
 @end
